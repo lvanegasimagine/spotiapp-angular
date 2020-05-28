@@ -10,6 +10,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { AppRoutingModule } from './app.routes';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetasComponent } from './shared/tarjetas/tarjetas.component';
+import { LoadingComponent } from './shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TarjetasComponent } from './shared/tarjetas/tarjetas.component';
     ArtistaComponent,
     HeaderComponent,
     NoimagePipe,
-    TarjetasComponent
+    TarjetasComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
