@@ -8,6 +8,7 @@ import { SearchComponent } from './pages/search/search.component';
 import { ArtistaComponent } from './pages/artista/artista.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { AppRoutingModule } from './app.routes';
+import { NoimagePipe } from './pipes/noimage.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AppRoutingModule } from './app.routes';
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    HeaderComponent
+    HeaderComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
