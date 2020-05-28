@@ -9,6 +9,7 @@ import { ArtistaComponent } from './pages/artista/artista.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { AppRoutingModule } from './app.routes';
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './shared/tarjetas/tarjetas.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     SearchComponent,
     ArtistaComponent,
     HeaderComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
