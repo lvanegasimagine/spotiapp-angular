@@ -1,0 +1,39 @@
+.titulo_busqueda {
+    left: 100px;
+}
+
+input[type=text] {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 8px 0;
+    outline: none;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    transition: all .4s ease-in-out;
+    border-color: #1DB954;
+    box-shadow: 0 0 4px 0 #1DB954;
+}
+
+.inputWithIcon input[type=text] {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    padding: 9px 8px;
+    color: rgb(18, 126, 214);
+    transition: .3s;
+}
+
+.inputWithIcon input[type=text]:focus+i {
+    color: #1DB954;
+}
